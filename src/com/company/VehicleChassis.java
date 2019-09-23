@@ -5,10 +5,12 @@ public class VehicleChassis implements Chassis {
     private String chassisName;
 
     public VehicleChassis() {
+
         this.chassisName = Chassis.chassis;
     }
 
     public VehicleChassis(String chassisName) {
+
         this.chassisName = chassisName;
     }
 
@@ -17,11 +19,13 @@ public class VehicleChassis implements Chassis {
     }
 
     public void setChassisType(String vehicleChassis) {
+
         this.chassisName = vehicleChassis;
     }
 
     public String toString() {
-        return "Chassis Name        : " + this.chassisName;
+
+        return "Chassis Name: " + this.chassisName;
     }
 
 
