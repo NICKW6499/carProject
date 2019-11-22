@@ -2,7 +2,7 @@ package com.company;
 
 public class VehicleChassis implements Chassis {
 
-    private String chassisName;
+    public String chassisName;
 
     public VehicleChassis() {
 
@@ -15,7 +15,7 @@ public class VehicleChassis implements Chassis {
     }
 
     public Chassis getChassisType() {
-        return this;
+        return new VehicleChassis();
     }
 
     public void setChassisType(String vehicleChassis) {
