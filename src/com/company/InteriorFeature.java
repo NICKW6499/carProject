@@ -1,13 +1,13 @@
 package com.company;
 
-public class InteriorFeature {
+public class InteriorFeature implements Feature{
   private String interiorFeature;
 
-  InteriorFeature() {
+  public InteriorFeature() {
     this.interiorFeature = "Generic";
   }
 
-  InteriorFeature(String interiorFeature) {
+  public InteriorFeature(String interiorFeature) {
     this.interiorFeature = interiorFeature;
   }
 

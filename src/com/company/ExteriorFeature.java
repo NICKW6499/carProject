@@ -1,13 +1,13 @@
 package com.company;
 
-public class ExteriorFeature {
+public class ExteriorFeature implements Feature {
   private String exteriorFeature;
 
-  ExteriorFeature(){
+  public ExteriorFeature(){
     this.exteriorFeature="Generic";
   }
 
-  ExteriorFeature(String exteriorFeature){
+  public ExteriorFeature(String exteriorFeature){
     this.exteriorFeature=exteriorFeature;
   }
 
@@ -22,9 +22,6 @@ public class ExteriorFeature {
   public String toString(){
     return "Exterior [" + exteriorFeature + "]";
   }
-
-
-
 
 
 }

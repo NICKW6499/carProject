@@ -1,19 +1,19 @@
 package com.company;
 
-public class vehicleFrame implements Chassis {
+public class VehicleFrame implements Chassis {
   public String vehicleFrameType;
 
-  vehicleFrame(){
+  public VehicleFrame(){
   this.vehicleFrameType="Unibody";
   }
 
-  vehicleFrame(String vehicleFrameType){
+  public VehicleFrame(String vehicleFrameType){
     this.vehicleFrameType=vehicleFrameType;
   }
 
   @Override
   public Chassis getChassisType() {
-    return new vehicleFrame();
+    return new VehicleFrame();
   }
 
   @Override
