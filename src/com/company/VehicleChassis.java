@@ -1,5 +1,9 @@
 package com.company;
 
+/**
+ *This class helps to create a type of chassis for a vehicle.
+ * @author Nicholis Wright
+ */
 public class VehicleChassis implements Chassis {
 
     public String chassisName;

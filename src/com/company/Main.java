@@ -11,6 +11,10 @@ import com.company.VehicleFrame;
 import java.util.Date;
 // test
 
+/**
+ *This is the main class which will construct vehicles and test OOP conventions.
+ * @author Scott Vanselow
+ */
 public class Main {
 
   public static void main(String[] args) {
@@ -23,6 +27,10 @@ public class Main {
     testCar();
   }
 
+  /**
+   *This is the main class which will construct vehicles and test OOP conventions.
+   * @author Scott Vanselow
+   */
   public static void testVehicleChassis() {
     // Creates two objects, one with the default constructor
     // and the other with the constructor with parameters.
@@ -35,6 +43,10 @@ public class Main {
     System.out.println(yourChassis.toString());
   }
 
+  /**
+   *This is the main class which will construct vehicles and test OOP conventions.
+   * @author Scott Vanselow
+   */
   public static void testVehicleFrame() {
     // Step 4 Test
     VehicleFrame vf1 = new VehicleFrame();
@@ -44,6 +56,10 @@ public class Main {
     System.out.println(vf2);
   }
 
+  /**
+   *This is the main class which will construct vehicles and test OOP conventions.
+   * @author Scott Vanselow
+   */
   public static void testManufacturedEngine() {
     ManufacturedEngine me1 = new ManufacturedEngine();
     System.out.println(me1);
@@ -54,6 +70,10 @@ public class Main {
     System.out.println(me2);
   }
 
+  /**
+   *This is the main class which will construct vehicles and test OOP conventions.
+   * @author Scott Vanselow
+   */
   public static void testFeatures() {
     InteriorFeature if1 = new InteriorFeature();
     System.out.println(if1);
@@ -68,6 +88,10 @@ public class Main {
     System.out.println(ef2);
   }
 
+  /**
+   *This is the main class which will construct vehicles and test OOP conventions.
+   * @author Scott Vanselow
+   */
   public static void testVehicle() {
     Vehicle v1 = new Vehicle();
     System.out.println(v1);
@@ -86,6 +110,10 @@ public class Main {
     System.out.println(v2);
   }
 
+  /**
+   *This is the main class which will construct vehicles and test OOP conventions.
+   * @author Scott Vanselow
+   */
   public static void testCar() {
 
     // Test default constructor and print instance attributes.

@@ -2,6 +2,10 @@ package com.company;
 
 import java.util.Date;
 
+/**
+ * This class creates a vehicle using ManufacturedEngine, Chassis, and Date classes.
+ * @author Nicholis Wright
+ */
 public class Vehicle {
   private Date vehicleManufacturedDate;
   private String vehicleManufacturer;
@@ -12,6 +16,9 @@ public class Vehicle {
   private String driveTrain;
   private ManufacturedEngine vehicleEngine;
 
+  /**
+   *This is the default constructor for a vehicle.
+   */
   public Vehicle() {
     this.vehicleManufacturedDate = new Date();
     this.vehicleManufacturer = "Generic";
@@ -23,6 +30,17 @@ public class Vehicle {
     this.vehicleEngine = new ManufacturedEngine();
   }
 
+  /**
+   *This is the overloaded constructor for a vehicle.
+   * @author Nicholis Wright
+   * @param vehicleManufacturedDate Date manufactured
+   * @param vehicleManufacturer Vehicle Manufacturer
+   * @param vehicleMake Vehicle Make
+   * @param vehicleModel Vehicle Model
+   * @param vehicleType Vehicle Type
+   * @param vehicleFrame Vehicle Frame attributes
+   * @param vehicleEngine Vehicle engine attributes
+   */
   public Vehicle(
       Date vehicleManufacturedDate,
       String vehicleManufacturer,
@@ -37,10 +55,21 @@ public class Vehicle {
     this.vehicleModel = vehicleModel;
     this.vehicleFrame = vehicleFrame;
     this.vehicleType = vehicleType;
-    this.driveTrain = "2WD: Two-Wheel Drive";
+    this.driveTrain = vehicleEngine.getDriveTrain();
     this.vehicleEngine = vehicleEngine;
   }
 
+  /**
+   *This is the overloaded constructor for a vehicle.
+   * @author Nicholis Wright
+   * @param vehicleManufacturedDate Date manufactured
+   * @param vehicleManufacturer Vehicle Manufacturer
+   * @param vehicleMake Vehicle Make
+   * @param vehicleModel Vehicle Model
+   * @param vehicleType Vehicle Type
+   * @param vehicleFrame Vehicle Frame attributes
+   * @param manufacturedEngine Vehicle engine attributes
+   */
   public Vehicle(
       Date vehicleManufacturedDate,
       String vehicleManufacturer,
@@ -60,6 +89,10 @@ public class Vehicle {
     this.vehicleEngine = manufacturedEngine;
   }
 
+  /**
+   * This is a method that will return a string containing vehicle attributes.
+   * @return
+   */
   public String toString() {
     return "Manufacturer Name: "
         + getVehicleManufacturer()

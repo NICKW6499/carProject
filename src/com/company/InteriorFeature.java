@@ -1,5 +1,9 @@
 package com.company;
 
+/**
+ * @author Nicholis Wright
+ * This class sets the interior features of a car.
+ */
 public class InteriorFeature implements Feature{
   private String interiorFeature;
 

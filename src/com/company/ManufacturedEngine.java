@@ -2,6 +2,10 @@ package com.company;
 
 import java.util.Date;
 
+/**
+ *This class creates a manufactured engine based on the engine interface.
+ * @author Nicholis Wright
+ */
 public class ManufacturedEngine implements Engine {
 
   private String engineManufacturer;
@@ -12,6 +16,10 @@ public class ManufacturedEngine implements Engine {
   private String engineType;
   private String driveTrain;
 
+  /**
+   *This is the default constructor for an engine.
+   * @author Nicholis Wright
+   */
   public ManufacturedEngine() {
 
     this.engineManufacturer = "Generic";
@@ -20,9 +28,20 @@ public class ManufacturedEngine implements Engine {
     this.engineModel = "Generic";
     this.engineCylinders = 0;
     this.engineType = "Generic";
-    this.driveTrain = "2WD: Two-Wheel Drives";
+    this.driveTrain = "2WD: Two-Wheel Drive";
   }
 
+  /**
+   * This is an overloaded constructor for an engine with unique field values.
+   * @author Nicholis Wright
+   * @param engineManufacturer Engine manufacturer
+   * @param engineManufacturedDate Date engine was made
+   * @param engineMake Make of engine e.g Honda
+   * @param engineModel Model of engine
+   * @param engineType Type of engine
+   * @param engineCylinders # of cylinders in the engine
+   * @param driveTrain Drive train of the vehicle
+   */
   public ManufacturedEngine(
       String engineManufacturer,
       Date engineManufacturedDate,
@@ -41,6 +60,11 @@ public class ManufacturedEngine implements Engine {
     this.driveTrain = driveTrain;
   }
 
+  /**
+   *This is a method to return values of an engine in a string format.
+   * @author Nicholis Wright
+   * @return returns a String of engine values.
+   */
   public String toString() {
 
     return "Engine Manufacturer : "

@@ -1,5 +1,9 @@
 package com.company;
 
+/**
+ *This class uses the chassis class to create a vehicle frame object.
+ * @author Nicholis Wright
+ */
 public class VehicleFrame implements Chassis {
   public String vehicleFrameType;
 

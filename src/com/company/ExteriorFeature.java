@@ -1,5 +1,9 @@
 package com.company;
 
+/**
+ * This class creates exterior features
+ * @author Nicholis Wright
+ */
 public class ExteriorFeature implements Feature {
   private String exteriorFeature;
 
