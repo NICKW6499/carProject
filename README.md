@@ -1,7 +1,24 @@
-# carProject
-New version of repository had to delete old and added some files
-1-2 Sections of Java class design interfaces car project a week until project is complete
-11 total sections estimated to be completed late october, early november.
-Sections 1-3 Complete and 4 partially complete
-So far I have learned to create an interface with strings and basic get/set, added an engine interface with 7 new methods, 
-created a vehicleChassis class that implements Chassis interface.
+# ProductLine
+
+This program uses the fundamental concepts of Object Oriented Programming to create a car. The major concepts used within this program are encapsulation, inheritance, and polymorphism.
+
+## Documentation
+https://nickw6499.github.io/ProductLine/
+
+## Diagrams
+![](Database.PNG)
+![](ClassDiagram.PNG)
+
+## Built With
+IntelliJ Idea Ultimate
+
+## Author
+Nicholis Wright
+
+
+## Acknowledgments
+Stack Overflow, 
+Professor Scott Vanselow
+
+## Key Programming Concepts Utilized
+Concepts of Object Oriented Programming including encapsulation, inheritance and polymorphism.
