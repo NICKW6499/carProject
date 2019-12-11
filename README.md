@@ -5,7 +5,7 @@ This program uses the fundamental concepts of Object Oriented Programming to cre
 ## Documentation
 https://nickw6499.github.io/carProject/
 ## Diagrams
-![](ClassDiagram.PNG)
+![](carClassDiagram.PNG)
 
 ## Built With
 IntelliJ Idea Ultimate
